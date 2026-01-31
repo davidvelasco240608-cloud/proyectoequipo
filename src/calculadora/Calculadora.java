@@ -15,10 +15,10 @@ public class Calculadora {
         int b= sc.nextInt();
         
         Suma suma = new Suma();
-        //Resta resta = new Resta();
+        Resta resta = new Resta();
         
         System.out.println("La suma de "+a+" + "+b+" es: "+suma.calcular(a,b));
-        //System.out.println("La resta de "+a+" + "+b+" es: "+suma.calcular(a,b));
+        System.out.println("La resta de "+a+" - "+b+" es: "+resta.calcular(a,b));
         
     }
     
